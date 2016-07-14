@@ -7,6 +7,7 @@ public class samplehiro : MonoBehaviour {
 	void Start () {
 		for (int i = 0; i < n; i += 2)
 			print (i);
+
 	}
 	
 	// Update is called once per frame
