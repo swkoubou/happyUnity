@@ -3,17 +3,15 @@ using System.Collections;
 
 public class samplehiro : MonoBehaviour {
 	public int n;
-	int i=0;
 	// Use this for initialization
 	void Start () {
-	
+		for (int i = 0; i < n; i += 2)
+			print (i);
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (i < n) {
-			print(i * 2);
-			i++;
-		}
+		
 	}
 }
